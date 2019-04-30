@@ -1,5 +1,7 @@
 package edu.psu.ist.ab.ist242.team5;
 
+import java.util.ArrayList;
+
 public class Salesmen {
     // Data members
     private String firstName;
@@ -63,5 +65,16 @@ public class Salesmen {
     }
     public String getPhone() {
         return phone;
+    }
+
+    public static void listSalesmen(ArrayList<Salesmen> sellerList) {
+        for (Salesmen sellers : sellerList) {
+            System.out.println("Salesman ID: " + sellers.getEmplID());
+            System.out.println("First Name: " + sellers.getFirstName());
+            System.out.println("Last Name: " + sellers.getLastName());
+            System.out.println("Email: " + sellers.getEmail());
+            System.out.println("Address: " + sellers.getAddress());
+            System.out.println("Phone: " + sellers.getPhone() + "\n");
+        }
     }
 }

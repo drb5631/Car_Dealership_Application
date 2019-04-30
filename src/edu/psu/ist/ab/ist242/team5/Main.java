@@ -6,10 +6,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    Salesmen s1 = new Salesmen(1, "Dave", "Blon", "db@psu.edu", "1234 Somewhere St", "2153453456");
-    Salesmen s2 = new Salesmen(2, "Huy", "Le", "hl@psu.edu", "5678 Somewhere St", "2157937694");
-    Salesmen s3 = new Salesmen(3, "Yongkang", "Deng", "yd@psu.edu", "6937 Somewhere St", "2153968126");
-
     int custcount = 0;
     int carCount = 0;
     int partCount = 0;
@@ -22,12 +18,24 @@ public class Main {
         ArrayList<Parts> partList = new ArrayList<>();
         ArrayList<Customers> custList = new ArrayList<>();
         ArrayList<SalesLeads> salesList = new ArrayList<>();
+        ArrayList<Salesmen> sellerList = new ArrayList<>();
         ArrayList<Dealerships> dealerList = new ArrayList<>();
 
         Dealerships d1 = new Dealerships("Philadelphia", "PA", 19134);
         dealerList.add(d1);
+
         System.out.println("Team 5 Car Dealership\n");
         Dealerships.listDealerships(dealerList);
+
+        Salesmen s1 = new Salesmen(1, "Dave", "Blon", "db@psu.edu", "1234 Somewhere St", "2153453456");
+        Salesmen s2 = new Salesmen(2, "Huy", "Le", "hl@psu.edu", "5678 Somewhere St", "2157937694");
+        Salesmen s3 = new Salesmen(3, "Yongkang", "Deng", "yd@psu.edu", "6937 Somewhere St", "2153968126");
+        sellerList.add(s1);
+        sellerList.add(s2);
+        sellerList.add(s3);
+
+        System.out.println("\nSalesmen:\n");
+        Salesmen.listSalesmen(sellerList);
 
         Scanner menuChoice = new Scanner(System.in);
         int mainMenu;

@@ -103,7 +103,7 @@ public class SalesLeads {
             System.out.println("Sale Details:\nCommission: " + leads.getCommission());
             System.out.println("Sale Lead Date: " + leads.getSalesDate());
             System.out.println("Dealer Price: " + leads.getPrice());
-            System.out.println("Sale Lead Active: " + leads.getLeadActive());
+            System.out.println("Sale Lead Active: " + leads.getLeadActive() + "\n");
         }
     }
 

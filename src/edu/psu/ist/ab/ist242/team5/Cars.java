@@ -113,7 +113,7 @@ public class Cars {
             System.out.println("Horse Power: " + car.getHorsePower());
             System.out.println("VIN: " + car.getVIN());
             System.out.println("MSRP: " + car.getMSRP());
-            System.out.println("Dealer Price: " + car.getDealerPrice());
+            System.out.println("Dealer Price: " + car.getDealerPrice() + "\n");
         }
     }
 }

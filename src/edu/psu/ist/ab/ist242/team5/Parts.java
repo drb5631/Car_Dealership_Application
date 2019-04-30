@@ -47,7 +47,7 @@ public class Parts {
         for (Parts part : partList) {
             System.out.println("Part ID: " + part.getPartID());
             System.out.println("Part Name: " + part.getPartName());
-            System.out.println("Part Type: " + part.getPartType());
+            System.out.println("Part Type: " + part.getPartType() + "\n");
         }
     }
 }

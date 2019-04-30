@@ -88,7 +88,7 @@ public class Customers {
             System.out.println("Address: " + customer.getAddress());
             System.out.println("Email: " + customer.getEmail());
             System.out.println("Phone: " + customer.getPhone());
-            System.out.println("SSN: " + customer.getSSN());
+            System.out.println("SSN: " + customer.getSSN() + "\n");
         }
     }
 }
