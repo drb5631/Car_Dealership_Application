@@ -91,7 +91,7 @@ public class Main {
                         System.out.print("\nCar ID: ");
                         int carNum = sale.nextInt();
                         carList.remove(carNum);
-                        System.out.println("Car " + saleNum + " sold and removed from inventory");
+                        System.out.println("Car " + carNum + " sold and removed from inventory");
                         break;
                     case 9:
                         System.out.println("Exited Application");
