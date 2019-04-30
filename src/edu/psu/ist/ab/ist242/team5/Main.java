@@ -62,6 +62,7 @@ public class Main {
                     case 4:
                         System.out.println("See Customers:\n");
                         Customers.listCustomers(custList);
+                        break;
                     case 5:
                         System.out.println("See Inventory\n");
                         System.out.println("Cars:\n");
