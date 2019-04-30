@@ -114,7 +114,7 @@ public class Main {
     }
 
     /**
-     * @author IST 242: Team 5
+     * @author Dave Blon
      * @since Spring 2019
      * @version 3.0
      * @return car - New Car
@@ -153,7 +153,7 @@ public class Main {
     }
 
     /**
-     * @author IST 242: Team 5
+     * @author Dave Blon
      * @since Spring 2019
      * @version 3.0
      * @return part - New Part
@@ -178,7 +178,7 @@ public class Main {
     }
 
     /**
-     * @author IST 242: Team5
+     * @author Dave Blon
      * @since Spring 2019
      * @version 3.0
      * @return cust - New Customer
@@ -211,7 +211,7 @@ public class Main {
     }
 
     /**
-     * @author IST 242: Team 5
+     * @author Dave Blon
      * @since Spring 2019
      * @version 3.0
      * @return newLead - New Sales Lead
