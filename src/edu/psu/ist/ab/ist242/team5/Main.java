@@ -11,7 +11,13 @@ public class Main {
     int partCount = 0;
     int leadCount = 0;
 
-
+    /**
+     * @author Dave Blon
+     * Main class where car dealership is executed and on command
+     * @param args
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public static void main(String[] args) {
         Main main = new Main();
