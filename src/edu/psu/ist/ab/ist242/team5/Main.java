@@ -124,6 +124,7 @@ public class Main {
 
     /**
      * @author Dave Blon
+     * Adds a new car to inventory
      * @since Spring 2019
      * @version 3.0
      * @return car - New Car
@@ -163,6 +164,7 @@ public class Main {
 
     /**
      * @author Dave Blon
+     * Adds a new part to inventory
      * @since Spring 2019
      * @version 3.0
      * @return part - New Part
@@ -188,6 +190,7 @@ public class Main {
 
     /**
      * @author Dave Blon
+     * Adds a new customer to the system
      * @since Spring 2019
      * @version 3.0
      * @return cust - New Customer
@@ -221,6 +224,7 @@ public class Main {
 
     /**
      * @author Dave Blon
+     * Adds a new sales lead to the system
      * @since Spring 2019
      * @version 3.0
      * @return newLead - New Sales Lead

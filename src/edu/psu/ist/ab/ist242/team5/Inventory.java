@@ -10,6 +10,7 @@ public class Inventory {
     //Methods
     /**
      * @author Nay Ullah
+     * Constructs the inventory item (cars, parts)
      * @since Spring 2019
      * @version 3.0
      */
