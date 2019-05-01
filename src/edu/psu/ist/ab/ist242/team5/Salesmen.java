@@ -3,7 +3,8 @@ package edu.psu.ist.ab.ist242.team5;
 import java.util.ArrayList;
 
 public class Salesmen {
-    // Data members
+
+    // Class Data Members
     private String firstName;
     private String lastName;
     private String email;
@@ -11,7 +12,18 @@ public class Salesmen {
     private int emplID;
     private String phone;
 
-    // Methods
+    /*
+     * Constructor Method
+     * @param emplID
+     * @param firstName
+     * @param lastName
+     * @param email
+     * @param address
+     * @param phone
+     * @author Huy Le
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public Salesmen(int emplID, String firstName, String lastName, String email, String address, String phone) {
         this.lastName = lastName;
@@ -22,51 +34,137 @@ public class Salesmen {
         this.phone = phone;
     }
 
+    /*
+     * @author Huy Le
+     * @return firstName
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String setFirstName(String firstName) {
         this.firstName = firstName;
         return firstName;
     }
+
+    /*
+     * @author Huy Le
+     * @param firstName
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String getFirstName() {
         return firstName;
     }
 
+    /*
+     * @author Huy Le
+     * @return lastName
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String setLastName(String lastName) {
         this.lastName = lastName;
         return lastName;
     }
 
+    /*
+     * @author Huy Le
+     * @param lastName
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String getLastName() {
         return lastName;
     }
+
+    /*
+     * @author Huy Le
+     * @returm email
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String setEmail(String email) {
         this.email = email;
         return email;
     }
+
+    /*
+     * @author Huy Le
+     * @param email
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String getEmail() {
         return email;
     }
+
+    /*
+     * @author Huy Le
+     * @returm address
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String setAddress(String address) {
         this.address = address;
         return address;
     }
+
+    /*
+     * @author Huy Le
+     * @param address
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String getAddress() {
         return address;
     }
+
+    /*
+     * @author Huy Le
+     * @return emplID
+     * @since Spring 2019
+     * @version 3.0
+     */
     public int setEmplID(int emplID) {
         this.emplID = emplID;
         return emplID;
     }
+
+    /*
+     * @author Huy Le
+     * @param emplID
+     * @since Spring 2019
+     * @version 3.0
+     */
     public int getEmplID() {
         return emplID;
     }
+
+    /*
+     * @author Huy Le
+     * @returm phone
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String setPhone(String phone) {
         this.phone = phone;
         return phone;
     }
+
+    /*
+     * @author Huy Le
+     * @param phone
+     * @since Spring 2019
+     * @version 3.0
+     */
     public String getPhone() {
         return phone;
     }
 
+    /*
+     * @author Huy Le
+     * @since Spring 2019
+     * @version 3.0
+     */
     public static void listSalesmen(ArrayList<Salesmen> sellerList) {
         for (Salesmen sellers : sellerList) {
             System.out.println("Salesman ID: " + sellers.getEmplID());
