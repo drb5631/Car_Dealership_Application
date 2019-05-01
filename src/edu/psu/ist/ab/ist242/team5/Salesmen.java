@@ -12,7 +12,7 @@ public class Salesmen {
     private int emplID;
     private String phone;
 
-    /*
+    /**
      * Constructor Method
      * @param emplID
      * @param firstName
@@ -33,52 +33,56 @@ public class Salesmen {
         this.emplID = emplID;
         this.phone = phone;
     }
-
-    /*
-     * @author Huy Le
-     * @return firstName
-     * @since Spring 2019
-     * @version 3.0
-     */
-    public String setFirstName(String firstName) {
-        this.firstName = firstName;
-        return firstName;
-    }
-
-    /*
+    /**
      * @author Huy Le
      * @param firstName
      * @since Spring 2019
      * @version 3.0
      */
+
+    public String setFirstName(String firstName) {
+        this.firstName = firstName;
+        return firstName;
+    }
+
+    /**
+     * @author Huy Le
+     * @return firstName
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public String getFirstName() {
         return firstName;
     }
 
-    /*
+    /**
      * @author Huy Le
      * @return lastName
      * @since Spring 2019
      * @version 3.0
      */
-    public String setLastName(String lastName) {
-        this.lastName = lastName;
+
+    public String getLastName() {
         return lastName;
     }
 
-    /*
+    /**
      * @author Huy Le
      * @param lastName
      * @since Spring 2019
      * @version 3.0
      */
-    public String getLastName() {
+
+    public String setLastName(String lastName) {
+        this.lastName = lastName;
         return lastName;
     }
 
-    /*
+
+    /**
      * @author Huy Le
-     * @returm email
+     * @param email
      * @since Spring 2019
      * @version 3.0
      */
@@ -87,19 +91,20 @@ public class Salesmen {
         return email;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @param email
+     * @returm email
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getEmail() {
         return email;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @returm address
+     * @param address
      * @since Spring 2019
      * @version 3.0
      */
@@ -108,9 +113,9 @@ public class Salesmen {
         return address;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @param address
+     * @returm address
      * @since Spring 2019
      * @version 3.0
      */
@@ -118,9 +123,9 @@ public class Salesmen {
         return address;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @return emplID
+     * @param emplID
      * @since Spring 2019
      * @version 3.0
      */
@@ -129,9 +134,9 @@ public class Salesmen {
         return emplID;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @param emplID
+     * @return emplID
      * @since Spring 2019
      * @version 3.0
      */
@@ -139,9 +144,9 @@ public class Salesmen {
         return emplID;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @returm phone
+     * @param phone
      * @since Spring 2019
      * @version 3.0
      */
@@ -150,9 +155,9 @@ public class Salesmen {
         return phone;
     }
 
-    /*
+    /**
      * @author Huy Le
-     * @param phone
+     * @returm phone
      * @since Spring 2019
      * @version 3.0
      */
@@ -160,7 +165,8 @@ public class Salesmen {
         return phone;
     }
 
-    /*
+    /**
+     * List all salesmen
      * @author Huy Le
      * @since Spring 2019
      * @version 3.0
