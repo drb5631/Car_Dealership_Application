@@ -21,6 +21,7 @@ public class Inventory {
     }
 
     /**
+     * Sets cars
      * @author Nay Ullah
      * @param _car
      * @since Spring 2019
@@ -31,6 +32,7 @@ public class Inventory {
     }
 
     /**
+     * Gets the car
      * @author Nay Ullah
      * @param _car
      * @since Spring 2019
@@ -42,6 +44,7 @@ public class Inventory {
     }
 
     /**
+     * Sets the part
      * @author Nay Ullah
      * @param _part
      * @since Spring 2019
@@ -52,6 +55,7 @@ public class Inventory {
     }
 
     /**
+     * Gets the part
      * @author Nay Ullah
      * @param _part
      * @since Spring 2019
