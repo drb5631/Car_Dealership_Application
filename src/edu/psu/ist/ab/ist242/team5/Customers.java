@@ -14,6 +14,13 @@ public class Customers {
 
     // Methods
 
+    /**
+     * Constructor method (constructs a new customer)
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public Customers(int custID, String firstName, String lastName, String address, String email, String phone,String SSN) {
         this.custID = custID;
         this.firstName = firstName;
@@ -24,61 +31,180 @@ public class Customers {
         this.SSN = SSN;
     }
 
+    /**
+     * Set first customer first name
+     * @param firstName
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+    /**
+     * Gets customer first name
+     * @return firstName
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public String getFirstName() {
         return firstName;
     }
 
+    /**
+     * Sets customer last name
+     * @param lastName
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    /**
+     * Gets customer last name
+     * @return last name
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public String getLastName() {
         return lastName;
     }
 
+    /**
+     * Sets customer address
+     * @param address
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setAddress(String address) {
         this.address = address;
     }
+
+    /**
+     * Gets customer address
+     * @return address
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public String getAddress() {
         return address;
     }
 
+    /**
+     * Sets customer email
+     * @param email
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setEmail(String email) {
         this.email = email;
     }
+
+    /**
+     * Gets customer email
+     * @return email
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public String getEmail() {
         return email;
     }
 
+    /**
+     * Sets customer ID
+     * @param custID
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setCustID(int custID) {
         this.custID = custID;
     }
+
+    /**
+     * Gets customer ID
+     * @return customer ID
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public int getCustID() {
         return custID;
     }
 
+    /**
+     * Sets customer phone number
+     * @param phone
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    /**
+     * Gets customer phone number
+     * @return phone number
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public String getPhone() {
         return phone;
     }
 
+    /**
+     * Sets customer social security number
+     * @param SSN
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public void setSSN(String SSN) {
         this.SSN = SSN;
     }
 
+    /**
+     * Gets customer social security number
+     * @return Social Security Number
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
+
     public String getSSN() {
         return SSN;
     }
+
+    /**
+     * Lists all the customers
+     * @author Yongkang Deng
+     * @since Spring 2019
+     * @version 3.0
+     */
 
     public static void listCustomers(ArrayList<Customers> custList) {
         for (Customers customer : custList) {
