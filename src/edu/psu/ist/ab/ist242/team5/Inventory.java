@@ -14,6 +14,7 @@ public class Inventory {
      * @since Spring 2019
      * @version 3.0
      */
+
     public Inventory() {
 
         carList = new ArrayList<Cars>();
@@ -27,6 +28,7 @@ public class Inventory {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setCars(Cars _car) {
         carList.add(_car);
     }
@@ -39,6 +41,7 @@ public class Inventory {
      * @version 3.0
      * @return car - New Cars
      */
+
     public Cars getCars(int _car) {
         return (Cars) carList.get(_car);
     }
@@ -50,6 +53,7 @@ public class Inventory {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setParts(Parts _part) {
         partsList.add(_part);
     }
@@ -62,6 +66,7 @@ public class Inventory {
      * @version 3.0
      * @return part - New Parts
      */
+
     public Parts getParts(int _part) {
         return (Parts) partsList.get(_part);
     }

@@ -17,6 +17,13 @@ public class Customers {
     /**
      * Constructor method (constructs a new customer)
      * @author Yongkang Deng
+     * @param custID
+     * @param firstName
+     * @param lastName
+     * @param address
+     * @param email
+     * @param phone
+     * @param SSN
      * @since Spring 2019
      * @version 3.0
      */

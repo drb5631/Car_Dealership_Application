@@ -32,6 +32,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public SalesLeads(int SalesLeadID, int emplID, String emplFirstName, String emplLastName, String custFirstName, String custLastName, double commission, String SalesLeadDate, double price, boolean SalesLeadActive) {
         this.emplFirstName = emplFirstName;
         this.emplLastName = emplLastName;
@@ -52,6 +53,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getEmplFirstName() {
         return emplFirstName;
     }
@@ -63,6 +65,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setEmplFirstName(String firstName) {
         this.emplFirstName = firstName;
     }
@@ -74,6 +77,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getEmplLastName() {
         return emplLastName;
     }
@@ -85,6 +89,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setEmplLastName(String lastName) {
         this.emplLastName = lastName;
     }
@@ -96,6 +101,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getCustFirstName() {
         return custFirstName;
     }
@@ -107,6 +113,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setCustFirstName(String _firstName) {
         this.custFirstName = _firstName;
     }
@@ -118,6 +125,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getCustLastName() {
         return custLastName;
     }
@@ -140,6 +148,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public int getSalesLeadID() {
         return SalesLeadID;
     }
@@ -151,6 +160,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setSalesLeadID(int _SalesLeadID) {
         this.SalesLeadID = _SalesLeadID;
     }
@@ -162,6 +172,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public int getEmplID() {
         return emplID;
     }
@@ -173,6 +184,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setEmplID(int _emplID) {
         this.emplID = _emplID;
     }
@@ -184,6 +196,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public double getCommission() {
         return commission;
     }
@@ -195,6 +208,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setCommission(int _commission) {
         this.commission = _commission;
     }
@@ -206,6 +220,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getSalesDate() {
         return SalesLeadDate;
     }
@@ -217,6 +232,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setSalesDate(String _SalesLeadDate) {
         this.SalesLeadDate = _SalesLeadDate;
     }
@@ -239,6 +255,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setPrice(double price) {
         this.price = price;
     }
@@ -250,6 +267,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public boolean getLeadActive() {
         return SalesLeadActive;
     }
@@ -261,6 +279,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public void setSalesLeadActive(boolean _SalesLeadActive) {
         this.SalesLeadActive = _SalesLeadActive;
     }
@@ -271,6 +290,7 @@ public class SalesLeads {
      * @since Spring 2019
      * @version 3.0
      */
+
     public static void listSalesLeads(ArrayList<SalesLeads> salesList) {
         for (SalesLeads leads : salesList) {
             System.out.println("Sale ID: " + leads.getSalesLeadID());

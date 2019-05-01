@@ -33,6 +33,7 @@ public class Salesmen {
         this.emplID = emplID;
         this.phone = phone;
     }
+
     /**
      * @author Huy Le
      * @param firstName
@@ -40,9 +41,8 @@ public class Salesmen {
      * @version 3.0
      */
 
-    public String setFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
-        return firstName;
     }
 
     /**
@@ -74,11 +74,9 @@ public class Salesmen {
      * @version 3.0
      */
 
-    public String setLastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
-        return lastName;
     }
-
 
     /**
      * @author Huy Le
@@ -86,9 +84,9 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
-    public String setEmail(String email) {
+
+    public void setEmail(String email) {
         this.email = email;
-        return email;
     }
 
     /**
@@ -108,9 +106,9 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
-    public String setAddress(String address) {
+
+    public void setAddress(String address) {
         this.address = address;
-        return address;
     }
 
     /**
@@ -119,6 +117,7 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getAddress() {
         return address;
     }
@@ -129,9 +128,9 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
-    public int setEmplID(int emplID) {
+
+    public void setEmplID(int emplID) {
         this.emplID = emplID;
-        return emplID;
     }
 
     /**
@@ -140,6 +139,7 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
+
     public int getEmplID() {
         return emplID;
     }
@@ -150,9 +150,9 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
-    public String setPhone(String phone) {
+
+    public void setPhone(String phone) {
         this.phone = phone;
-        return phone;
     }
 
     /**
@@ -161,6 +161,7 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
+
     public String getPhone() {
         return phone;
     }
@@ -171,6 +172,7 @@ public class Salesmen {
      * @since Spring 2019
      * @version 3.0
      */
+
     public static void listSalesmen(ArrayList<Salesmen> sellerList) {
         for (Salesmen sellers : sellerList) {
             System.out.println("Salesman ID: " + sellers.getEmplID());
