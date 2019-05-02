@@ -128,7 +128,7 @@ public class Main {
      * @since Spring 2019
      * @version 3.0
      * @return car - New Car
-     * @throws InputMismatchException
+     * @throws InputMismatchException throws exception if input is invalid
      */
 
     public Cars addCar() throws InputMismatchException{
@@ -168,7 +168,7 @@ public class Main {
      * @since Spring 2019
      * @version 3.0
      * @return part - New Part
-     * @throws InputMismatchException
+     * @throws InputMismatchException throws exception if input is invalid
      */
 
     public Parts addPart() throws InputMismatchException{
@@ -194,7 +194,7 @@ public class Main {
      * @since Spring 2019
      * @version 3.0
      * @return cust - New Customer
-     * @throws InputMismatchException
+     * @throws InputMismatchException throws exception if input is invalid
      */
 
     public Customers addCustomer() throws InputMismatchException{
@@ -228,7 +228,7 @@ public class Main {
      * @since Spring 2019
      * @version 3.0
      * @return newLead - New Sales Lead
-     * @throws InputMismatchException
+     * @throws InputMismatchException throws exception if input is invalid
      */
 
     public SalesLeads addSalesLead() throws InputMismatchException{
