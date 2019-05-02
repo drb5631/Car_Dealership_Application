@@ -15,9 +15,9 @@ public class Dealerships {
     /**
      * Constructor method for constructing a dealership location
      * @author Brian Tu
-     * @param city
-     * @param state
-     * @param zip
+     * @param city city where the dealership is in
+     * @param state state the dealership is in
+     * @param zip zip code the dealership is in
      * @since Spring 2019
      * @version 3.0
      */
@@ -31,7 +31,7 @@ public class Dealerships {
     /**
      * Set dealership city
      * @author Brian Tu
-     * @param city
+     * @param city city of the dealership
      * @since Spring 2019
      * @version 3.0
      */
@@ -55,7 +55,7 @@ public class Dealerships {
     /**
      * Set dealership state
      * @author Brian Tu
-     * @param state
+     * @param state state of the dealership
      * @since Spring 2019
      * @version 3.0
      */
@@ -79,7 +79,7 @@ public class Dealerships {
     /**
      * Set dealership zip code
      * @author Brian Tu
-     * @param zip
+     * @param zip zip code of the dealership
      * @since Spring 2019
      * @version 3.0
      */

@@ -21,16 +21,16 @@ public class Cars {
 
     /**
      * Constructor Method
-     * @param ID
-     * @param make
-     * @param model
-     * @param year
-     * @param color
-     * @param MPG
-     * @param horsePower
-     * @param VIN
-     * @param MSRP
-     * @param dealerPrice
+     * @param ID ID of the car being created
+     * @param make make of the car being created
+     * @param model model of the car being created
+     * @param year year of the car being created
+     * @param color color of the car being created
+     * @param MPG miles/gallon for the car being created
+     * @param horsePower horse power associated with the car being created
+     * @param VIN special serial number for the car being created
+     * @param MSRP manufacturer suggested retail price for the car being created
+     * @param dealerPrice price the dealership is going to sell the car for that is being created
      * @author David Lulko
      * @since Spring 2019
      * @version 3.0
@@ -52,7 +52,7 @@ public class Cars {
     /**
      * Set car ID
      * @author David Lulko
-     * @param id
+     * @param id car ID
      * @since Spring 2019
      * @version 3.0
      */
@@ -76,7 +76,7 @@ public class Cars {
     /**
      * Set car make
      * @author David Lulko
-     * @param make
+     * @param make make of the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -101,7 +101,7 @@ public class Cars {
     /**
      * Set car model
      * @author David Lulko
-     * @param model
+     * @param model model of the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -126,7 +126,7 @@ public class Cars {
     /**
      * Set car year
      * @author David Lulko
-     * @param year
+     * @param year year the car was released
      * @since Spring 2019
      * @version 3.0
      */
@@ -151,7 +151,7 @@ public class Cars {
     /**
      * Set car color
      * @author David Lulko
-     * @param color
+     * @param color color of the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -176,7 +176,7 @@ public class Cars {
     /**
      * Set car miles per gallon
      * @author David Lulko
-     * @param MPG
+     * @param MPG miles/gallon for the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -201,7 +201,7 @@ public class Cars {
     /**
      * Set car horsepower
      * @author David Lulko
-     * @param horsePower
+     * @param horsePower the car's horse power level
      * @since Spring 2019
      * @version 3.0
      */
@@ -226,7 +226,7 @@ public class Cars {
     /**
      * Set car vehicle identification number
      * @author David Lulko
-     * @param VIN
+     * @param VIN vehicle identification number associated with the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -251,7 +251,7 @@ public class Cars {
     /**
      * Set car MSRP
      * @author David Lulko
-     * @param MSRP
+     * @param MSRP MSRP, or suggested price the car should be sold at
      * @since Spring 2019
      * @version 3.0
      */
@@ -276,7 +276,7 @@ public class Cars {
     /**
      * Set dealer price
      * @author David Lulko
-     * @param dealerPrice
+     * @param dealerPrice the price the dealership will see the car for
      * @since Spring 2019
      * @version 3.0
      */

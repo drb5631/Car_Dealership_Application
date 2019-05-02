@@ -19,13 +19,13 @@ public class Customers {
     /**
      * Constructor method (constructs a new customer)
      * @author Yongkang Deng
-     * @param custID
-     * @param firstName
-     * @param lastName
-     * @param address
-     * @param email
-     * @param phone
-     * @param SSN
+     * @param custID ID of the customer being created
+     * @param firstName customer first name being created
+     * @param lastName customer last name being created
+     * @param address address of the customer being created
+     * @param email email for the customer being created
+     * @param phone phone number of the customer being created
+     * @param SSN customer's social security number being created
      * @since Spring 2019
      * @version 3.0
      */
@@ -42,7 +42,7 @@ public class Customers {
 
     /**
      * Set first customer first name
-     * @param firstName
+     * @param firstName first name of the customer
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -66,7 +66,7 @@ public class Customers {
 
     /**
      * Sets customer last name
-     * @param lastName
+     * @param lastName last name of the customer
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -90,7 +90,7 @@ public class Customers {
 
     /**
      * Sets customer address
-     * @param address
+     * @param address address of the customer
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -114,7 +114,7 @@ public class Customers {
 
     /**
      * Sets customer email
-     * @param email
+     * @param email email of the customer
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -138,7 +138,7 @@ public class Customers {
 
     /**
      * Sets customer ID
-     * @param custID
+     * @param custID ID associated with the customer
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -162,7 +162,7 @@ public class Customers {
 
     /**
      * Sets customer phone number
-     * @param phone
+     * @param phone customer's phone number
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0
@@ -186,7 +186,7 @@ public class Customers {
 
     /**
      * Sets customer social security number
-     * @param SSN
+     * @param SSN customer's social security number
      * @author Yongkang Deng
      * @since Spring 2019
      * @version 3.0

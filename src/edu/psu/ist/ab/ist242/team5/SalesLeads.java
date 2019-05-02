@@ -21,16 +21,16 @@ public class SalesLeads {
 
     /**
      * Constructor Method
-     * @param SalesLeadID
-     * @param emplID
-     * @param emplFirstName
-     * @param emplLastName
-     * @param custFirstName
-     * @param custLastName
-     * @param commission
-     * @param SalesLeadDate
-     * @param SalesLeadActive
-     * @param price
+     * @param SalesLeadID sales lead ID being created
+     * @param emplID employee ID from salesmen being created
+     * @param emplFirstName employee first name being created
+     * @param emplLastName employee last name being created
+     * @param custFirstName customer first name being created
+     * @param custLastName customer last name being created
+     * @param commission comission salesman makes being created
+     * @param SalesLeadDate date the sale was sales lead was entered being created
+     * @param SalesLeadActive tells if the lead is still active (true or false) being created
+     * @param price price of the car being looked at being created
      * @author Huy Le
      * @since Spring 2019
      * @version 3.0
@@ -64,7 +64,7 @@ public class SalesLeads {
     /**
      * Set employee first name
      * @author Huy Le
-     * @param firstName
+     * @param firstName employee first name
      * @since Spring 2019
      * @version 3.0
      */
@@ -88,7 +88,7 @@ public class SalesLeads {
     /**
      * Set employee last name
      * @author Huy Le
-     * @param lastName
+     * @param lastName employee last name
      * @since Spring 2019
      * @version 3.0
      */
@@ -112,7 +112,7 @@ public class SalesLeads {
     /**
      * Set customer first name
      * @author Huy Le
-     * @param _firstName
+     * @param _firstName customer first name
      * @since Spring 2019
      * @version 3.0
      */
@@ -135,7 +135,7 @@ public class SalesLeads {
     /**
      * Set customer last name
      * @author Huy Le
-     * @param _lastName
+     * @param _lastName customer last name
      * @since Spring 2019
      * @version 3.0
      */
@@ -159,7 +159,7 @@ public class SalesLeads {
     /**
      * Set sales lead ID
      * @author Huy Le
-     * @param _SalesLeadID
+     * @param _SalesLeadID ID of the sales lead
      * @since Spring 2019
      * @version 3.0
      */
@@ -183,7 +183,7 @@ public class SalesLeads {
     /**
      * Set employee ID
      * @author Huy Le
-     * @param _emplID
+     * @param _emplID ID of the employee showing the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -207,7 +207,7 @@ public class SalesLeads {
     /**
      * Set comission
      * @author Huy Le
-     * @param _commission
+     * @param _commission pocket money the salesmen will make
      * @since Spring 2019
      * @version 3.0
      */
@@ -231,7 +231,7 @@ public class SalesLeads {
     /**
      *Set sales date
      * @author Huy Le
-     * @param _SalesLeadDate
+     * @param _SalesLeadDate date the sales lead was initiated
      * @since Spring 2019
      * @version 3.0
      */
@@ -254,7 +254,7 @@ public class SalesLeads {
     /**
      * Set price
      * @author Huy Le
-     * @param price
+     * @param price price the car is being sold for
      * @since Spring 2019
      * @version 3.0
      */
@@ -278,7 +278,7 @@ public class SalesLeads {
     /**
      * Set if the lead is active
      * @author Huy Le
-     * @param _SalesLeadActive
+     * @param _SalesLeadActive tells if the lead is still active or not (true or false)
      * @since Spring 2019
      * @version 3.0
      */

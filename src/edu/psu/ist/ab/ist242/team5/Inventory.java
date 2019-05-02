@@ -27,7 +27,7 @@ public class Inventory {
     /**
      * Sets cars
      * @author Nay Ullah
-     * @param _car
+     * @param _car the car being added to the inventory
      * @since Spring 2019
      * @version 3.0
      */
@@ -39,7 +39,7 @@ public class Inventory {
     /**
      * Gets the car
      * @author Nay Ullah
-     * @param _car
+     * @param _car the car being returned into the car inventory
      * @since Spring 2019
      * @version 3.0
      * @return car - New Cars
@@ -52,7 +52,7 @@ public class Inventory {
     /**
      * Sets the part
      * @author Nay Ullah
-     * @param _part
+     * @param _part the part being added into the inventory
      * @since Spring 2019
      * @version 3.0
      */
@@ -64,7 +64,7 @@ public class Inventory {
     /**
      * Gets the part
      * @author Nay Ullah
-     * @param _part
+     * @param _part the part being added to the part list in the inventory
      * @since Spring 2019
      * @version 3.0
      * @return part - New Parts

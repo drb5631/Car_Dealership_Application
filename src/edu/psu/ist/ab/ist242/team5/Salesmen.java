@@ -17,12 +17,12 @@ public class Salesmen {
 
     /**
      * Constructor Method
-     * @param emplID
-     * @param firstName
-     * @param lastName
-     * @param email
-     * @param address
-     * @param phone
+     * @param emplID employee ID being created
+     * @param firstName employee first name being created
+     * @param lastName employee last name being created
+     * @param email employee email being created
+     * @param address employee address being created
+     * @param phone employee phone being created
      * @author Huy Le
      * @since Spring 2019
      * @version 3.0
@@ -39,7 +39,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param firstName
+     * @param firstName employee first name
      * @since Spring 2019
      * @version 3.0
      */
@@ -72,7 +72,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param lastName
+     * @param lastName employee last name
      * @since Spring 2019
      * @version 3.0
      */
@@ -83,7 +83,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param email
+     * @param email employee email
      * @since Spring 2019
      * @version 3.0
      */
@@ -94,7 +94,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @returm email
+     * @return email
      * @since Spring 2019
      * @version 3.0
      */
@@ -105,7 +105,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param address
+     * @param address employee address
      * @since Spring 2019
      * @version 3.0
      */
@@ -116,7 +116,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @returm address
+     * @return address
      * @since Spring 2019
      * @version 3.0
      */
@@ -127,7 +127,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param emplID
+     * @param emplID employee ID
      * @since Spring 2019
      * @version 3.0
      */
@@ -149,7 +149,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @param phone
+     * @param phone employee phone number
      * @since Spring 2019
      * @version 3.0
      */
@@ -160,7 +160,7 @@ public class Salesmen {
 
     /**
      * @author Huy Le
-     * @returm phone
+     * @return phone
      * @since Spring 2019
      * @version 3.0
      */

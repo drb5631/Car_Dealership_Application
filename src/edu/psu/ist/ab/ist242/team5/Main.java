@@ -14,7 +14,7 @@ public class Main {
     /**
      * @author Dave Blon
      * Main class where car dealership is executed and on command
-     * @param args
+     * @param args all arguments being executed
      * @since Spring 2019
      * @version 3.0
      */

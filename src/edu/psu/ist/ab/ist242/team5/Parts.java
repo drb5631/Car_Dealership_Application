@@ -14,9 +14,9 @@ public class Parts {
 
     /**
      * Constructor Method
-     * @param ID
-     * @param name
-     * @param type
+     * @param ID the ID for the car part being created
+     * @param name the name of the car part being created
+     * @param type the type of car part being created
      * @author David Lulko
      * @since Spring 2019
      * @version 3.0
@@ -31,7 +31,7 @@ public class Parts {
     /**
      * Set part name
      * @author David Lulko
-     * @param partName
+     * @param partName name of the car part
      * @since Spring 2019
      * @version 3.0
      */
@@ -56,7 +56,7 @@ public class Parts {
     /**
      * Set part type
      * @author David Lulko
-     * @param partType
+     * @param partType type of part relating to the car
      * @since Spring 2019
      * @version 3.0
      */
@@ -81,7 +81,7 @@ public class Parts {
     /**
      * Set part ID
      * @author David Lulko
-     * @param partID
+     * @param partID the ID for the car part
      * @since Spring 2019
      * @version 3.0
      */
