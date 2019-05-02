@@ -5,12 +5,15 @@ import java.util.ArrayList;
 public class Salesmen {
 
     // Class Data Members
+
     private String firstName;
     private String lastName;
     private String email;
     private String address;
     private int emplID;
     private String phone;
+
+    // class Methods
 
     /**
      * Constructor Method

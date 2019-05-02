@@ -4,16 +4,19 @@ import java.util.ArrayList;
 
 public class Inventory {
 
+    //class data members
+
     private ArrayList carList;
     private ArrayList partsList;
 
-    //Methods
     /**
      * @author Nay Ullah
      * Constructs the inventory item (cars, parts)
      * @since Spring 2019
      * @version 3.0
      */
+
+    //class Methods
 
     public Inventory() {
 

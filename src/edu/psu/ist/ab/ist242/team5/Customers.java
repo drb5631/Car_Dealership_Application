@@ -3,7 +3,9 @@ package edu.psu.ist.ab.ist242.team5;
 import java.util.ArrayList;
 
 public class Customers {
+
     //Data members
+
     private String firstName;
     private String lastName;
     private String address;

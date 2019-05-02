@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class SalesLeads {
 
     //Class Data Members
+
     private String emplLastName;
     private String emplFirstName;
     private String custFirstName;
@@ -15,6 +16,8 @@ public class SalesLeads {
     private String SalesLeadDate;
     private double price;
     private boolean SalesLeadActive;
+
+    //class Methods
 
     /**
      * Constructor Method

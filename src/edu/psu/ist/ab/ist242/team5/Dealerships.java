@@ -4,14 +4,13 @@ import java.util.ArrayList;
 
 public class Dealerships {
 
-// Data members
+    // Data members
 
     private String city;
     private String state;
     private int zip;
 
-
-//Methods
+    //Methods
 
     /**
      * Constructor method for constructing a dealership location
