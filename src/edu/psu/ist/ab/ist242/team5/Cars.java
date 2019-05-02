@@ -273,9 +273,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public double setDealerPrice(double dealerPrice) {
+    public void setDealerPrice(double dealerPrice) {
         this.dealerPrice = dealerPrice;
-        return dealerPrice;
     }
 
     /**
