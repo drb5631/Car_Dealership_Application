@@ -290,6 +290,7 @@ public class SalesLeads {
     /**
      * List out the called sales leads
      * @author Huy Le
+     * @param salesList list of sales leads
      * @since Spring 2019
      * @version 3.0
      */

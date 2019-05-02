@@ -103,6 +103,7 @@ public class Dealerships {
     /**
      * List dealership locations
      * @author Brian Tu
+     * @param dealerList list of dealership locations
      * @since Spring 2019
      * @version 3.0
      */

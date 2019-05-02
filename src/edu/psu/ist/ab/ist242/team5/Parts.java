@@ -36,9 +36,8 @@ public class Parts {
      * @version 3.0
      */
 
-    public String setPartName(String partName) {
+    public void setPartName(String partName) {
         this.partName = partName;
-        return partName;
     }
 
     /**
@@ -61,9 +60,8 @@ public class Parts {
      * @version 3.0
      */
 
-    public String setPartType(String partType) {
+    public void setPartType(String partType) {
         this.partType = partType;
-        return partType;
     }
 
     /**
@@ -85,9 +83,8 @@ public class Parts {
      * @since Spring 2019
      * @version 3.0
      */
-    public int setPartID(int partID) {
+    public void setPartID(int partID) {
         this.partID = partID;
-        return partID;
     }
 
     /**
@@ -105,6 +102,7 @@ public class Parts {
     /**
      * List each part in the parts list
      * @author David Lulko
+     * @param partList list of parts
      * @since Spring 2019
      * @version 3.0
      */

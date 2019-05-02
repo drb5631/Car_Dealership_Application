@@ -81,9 +81,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public String setMake(String make) {
+    public void setMake(String make) {
         this.make = make;
-        return make;
     }
 
     /**
@@ -106,9 +105,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public String setModel(String model) {
+    public void setModel(String model) {
         this.model = model;
-        return model;
     }
 
     /**
@@ -131,9 +129,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public int setYear(int year) {
+    public void setYear(int year) {
         this.year = year;
-        return year;
     }
 
     /**
@@ -156,9 +153,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public String setColor(String color) {
+    public void setColor(String color) {
         this.color = color;
-        return color;
     }
 
     /**
@@ -181,9 +177,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public int setMPG(int MPG) {
+    public void setMPG(int MPG) {
         this.MPG = MPG;
-        return MPG;
     }
 
     /**
@@ -206,9 +201,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public int setHorsePower(int horsePower) {
+    public void setHorsePower(int horsePower) {
         this.horsePower = horsePower;
-        return horsePower;
     }
 
     /**
@@ -231,9 +225,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public int setVIN(int VIN) {
+    public void setVIN(int VIN) {
         this.VIN = VIN;
-        return VIN;
     }
 
     /**
@@ -256,9 +249,8 @@ public class Cars {
      * @version 3.0
      */
 
-    public double setMSRP(double MSRP) {
+    public void setMSRP(double MSRP) {
         this.MSRP = MSRP;
-        return MSRP;
     }
 
     /**
@@ -301,6 +293,7 @@ public class Cars {
     /**
      * List each car in the cars list
      * @author David Lulko
+     * @param carList list of cars
      * @since Spring 2019
      * @version 3.0
      */
